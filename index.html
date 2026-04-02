@@ -28,32 +28,38 @@
         possible.
       </h2>
       <div class="contact">
-  <div class="input-field">
-    <label for="name">Name</label>
-    <input type="text" id="name" placeholder="Ethan Johnson" />
-  </div>
+        <div class="input-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Ethan Johnson" />
+        </div>
 
-  <div class="input-field">
-    <label for="email">Company Email</label>
-    <input type="email" id="email" placeholder="ethan@johnson.com" />
-  </div>
+        <div class="input-field">
+          <label for="email">Company Email</label>
+          <input type="email" id="email" placeholder="ethan@johnson.com" />
+        </div>
 
-  <div class="input-field">
-    <label for="size">Company Size</label>
-    <input type="text" id="size" placeholder="50-100 employees" />
-  </div>
+        <div class="input-field">
+          <label for="size">Company Size</label>
+          <select name="text" id="size">
+            <option value="50-100" selected>50-100 employees</option>
+            <option value="101-200">101-200 employees</option>
+          </select>
+        </div>
 
-  <div class="input-field">
-    <label for="subject">Subject</label>
-    <input type="text" id="subject" placeholder="Building Landing pages" />
-  </div>
+        <div class="input-field">
+          <label for="subject">Subject</label>
+          <select name="text" id="subject">
+            <option value="landing" selected>Building Landing pages</option>
+            <option value="design">Designing Websites</option>
+          </select>
+        </div>
 
-  <div class="input-field">
-    <label for="message">Message</label>
-    <input type="text" id="message" placeholder="50-100 employees" />
-  </div>
-  <button type="submit">Contact Sales</button>
-</div>
+        <div class="input-field">
+          <label for="message">Message</label>
+          <textarea id="message">50-100 employees</textarea>
+        </div>
+        <button type="submit">Contact Sales</button>
+      </div>
     </main>
   </body>
 </html>
